@@ -1,0 +1,58 @@
+* {
+  box-sizing: border-box;
+}
+
+:root {
+  --primary: #ff5b2e;
+  --secondary: #000958;
+  --bg-color: #c6f4f9;
+  --text-color-light: #656689;
+  --text-color: #5e6085;
+  --text-color-bold: #48496a;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-size: 1.6rem;
+  font-family: "Poppins", sans-serif;
+}
+
+/* Common */
+a {
+  text-decoration: none;
+}
+
+input,
+textarea,
+select,
+button {
+  font-family: inherit;
+  font-size: inherit;
+}
+
+.container {
+  width: 1140px;
+  min-width: calc(100% - 230px);
+  margin: 0 auto;
+}
+
+.btn {zz
+  width: 107px;
+  height: 26px;
+  text-align: center;
+  border-radius: 20px;
+  border: 1.5px solid var(--primary);
+  color: #000;
+  background: var(--primary);
+  font-size: 1rem;
+  font-weight: 500;
+  line-height: 1.2;
+}
+
+.btn:hover {
+  opacity: 0.8;
+  cursor: pointer;
+}
